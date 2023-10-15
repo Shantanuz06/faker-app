@@ -49,6 +49,6 @@
         <Checkbox>Jobs</Checkbox>
         <Checkbox>Websitex</Checkbox>
 
-        Data Points <b>(e.g. 1 - 2000)</b>
+        Data Points<b>(e.g. 1 - 2000)</b>
     </div>
 </div>
