@@ -24,7 +24,7 @@
 			accountName: false,
 			accountNumber: false,
 			amount: false,
-			currency: false
+			currencySymbol: false
 		},
 		commerce: {
 			department: false,
@@ -49,8 +49,8 @@
 			genre: false,
 			songName: false,
 			adverb: false,
-			adjective: false,
-			airline: false
+			userName: false,
+			emoji: false
 			
 		}
 	};
@@ -93,8 +93,8 @@
 								case 'amount':
 									return faker.finance.amount();
 
-								case 'currency':
-									return faker.finance.currency();
+								case 'currencySymbol':
+									return faker.finance.currencySymbol();
 
 								case 'department':
 									return faker.commerce.department();
@@ -144,11 +144,11 @@
 								case 'adverb':
 									return faker.word.adverb();
 
-								case 'snake':
-									return faker.word.adjective();
+								case 'userName':
+									return faker.internet.userName();
 
-								case 'horse':
-									return faker.airline.airline();
+								case 'emoji':
+									return faker.internet.emoji();
 
 								default:
 									return 'New Data';
@@ -286,11 +286,11 @@
 					</li>
 					<li>
 						<Checkbox
-							bind:checked={form.finance.currency}
+							bind:checked={form.finance.currencySymbol}
 							name="fields"
-							value="currency"
-							id="currency"
-							class="p-1.5">Currency</Checkbox
+							value="currencySymbol"
+							id="currencySymbol"
+							class="p-1.5">Currency Symbol</Checkbox
 						>
 					</li>
 				</ul>
@@ -467,20 +467,20 @@
 					</li>
 					<li>
 						<Checkbox
-							bind:checked={form.Misc.adjective}
+							bind:checked={form.Misc.userName}
 							name="fields"
-							value="adjective"
-							id="adjective"
-							class="p-1.5">adjective</Checkbox
+							value="userName"
+							id="userName"
+							class="p-1.5">userName</Checkbox
 						>
 					</li>
 					<li>
 						<Checkbox
-							bind:checked={form.Misc.airline}
+							bind:checked={form.Misc.emoji}
 							name="fields"
-							value="airline"
-							id="airline"
-							class="p-1.5">airline</Checkbox
+							value="emoji"
+							id="emoji"
+							class="p-1.5">emoji</Checkbox
 						>
 					</li>
 				</ul>
@@ -516,7 +516,7 @@
 		placeholder= "Generated Data"
 		readonly 
 		class="custom-scrollbar focus:outline-0 focus:shadow-none dark:text-gray-500 block p-2.5 bg-white bg-transparent w-full h-full text-sm text-gray-500 border-0" 
-		>  {testData} </textarea>
+		> {testData} </textarea>
 		
 		
 	</div>
