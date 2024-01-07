@@ -6,7 +6,7 @@ Clone the project
 
 ```bash
 
-git  clone  https://github.com/AraeneaCLI/devstar.git
+git  clone  https://github.com/Shantanuz06/faker-app
 
 ```
 
@@ -14,7 +14,7 @@ Go to the project directory
 
 ```bash
 
-cd  devstar
+cd  faker-app
 
 ```
 
