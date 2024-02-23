@@ -1,5 +1,8 @@
 # faker-app
  fake data generator
+ Try it at 
+https://fakerop.netlify.app/
+
 ## Run Locally
 
 Clone the project
