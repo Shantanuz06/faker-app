@@ -21,8 +21,8 @@
 </script>
 
 <svelte:head>
-		<title>Faker — Fake Data Generator </title>
-		<meta name="title" content="Faker — Fake Data Generator">
+		<title>Faker — Raw Data Generator </title>
+		<meta name="title" content="Faker — Raw Data Generator">
 		<meta name="description" content="Looking to boost your productivity and efficiency as a BIG Data Analyst? Our free online fake Data Generator toolkit has everything you need to unlock your full potential!">
 	<!-- <meta name="keywords" content="developer toolkit, free online, efficiency, productivity, user-friendly platform, comprehensive collection of tools, unlock your full potential"> -->
 	<!-- <meta property="og:image" content="https://example.com/toolkit.jpg"> -->
