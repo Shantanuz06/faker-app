@@ -6,7 +6,7 @@
       let hCard = false;
 </script>
 <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:px-12">
-  <Heading tag="h1" class="mb-4">Welcome to the <Span highlight>#Ultimate <br></Span> <Span gradient>Fake Data Generator!</Span></Heading>
+  <Heading tag="h1" class="mb-4">Welcome to the <Span highlight>#Ultimate <br></Span> <Span gradient>Raw Data Generator!</Span></Heading>
   <p class="mb-8 text-lg  font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-500">
     If you&#39;re in need of realistic but entirely fictional data for various purposes, you&#39;ve come to the right place.</p>
     <GradientButton color="cyanToBlue"text-3xl href="/generate"> Generate Data<ArrowRightOutline class="w-4.5 h-3.5 ml-3" /> </GradientButton>
