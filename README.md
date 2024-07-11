@@ -36,5 +36,3 @@ Start the server
 npm  run  dev
 
 ```
-# faker-app
- fake data generator
